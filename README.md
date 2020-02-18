@@ -17,7 +17,7 @@ OUTPUT-->
 URL------------>Status_code
 http://google.com------------>200
 http://facebook.com------------>200
-http://twitter.com------------>200
+http://twitter.com------------>200 .
 
 
 
