@@ -12,11 +12,24 @@ HOW TO USE-->
 NOTE- All domain must be start with http/https.
 4.) Run the script -> { python3 Genrator.py }
 
+
+NOTE------>
+IF YOU GOT SUCH TYPE ERROR {
+
+Error Connecting: HTTPSConnectionPool(host='confluence.defense.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+
+}
+
+DELETE THAT DOMAIN IT'S COMMING BECAUSE SSL CERTIFICATE ERROE..
+
 OUTPUT-->
 
 URL------------>Status_code
+
 http://google.com------------>200
+
 http://facebook.com------------>200
+
 http://twitter.com------------>200 .
 
 
