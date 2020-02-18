@@ -18,7 +18,7 @@ print("URL", "Status_code",sep="------------>")
 try: 
 
 	for i in list:
-	 resp = requests.get(i,timeout=3)
+	 resp = requests.get(i,timeout=10)
 	 print(i ,resp.status_code, sep="------------>")
 	 resp.raise_for_status()                 # Raise error in case of failure 
 except requests.exceptions.HTTPError as httpErr: 
