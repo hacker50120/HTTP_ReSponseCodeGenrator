@@ -11,6 +11,7 @@ HOW TO USE-->
 3.) Paste Your All Domain here, Example-->( https/http://xyz.com).
 NOTE- All domain must be start with http/https.
 4.) Run the script -> { python3 Genrator.py }
+5.) save that response in file use--> { python3 Genrtor.py | tee -a file-name.txt }
 
 
 NOTE------>
@@ -34,3 +35,4 @@ http://twitter.com------------>200 .
 
 
 
+Genrated By hacker50120..
