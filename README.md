@@ -12,14 +12,15 @@ HOW TO USE-->
 
 3.) It will Download all require Library. and file.txt will be open now paste all url here and save them..
 
-3.) Paste Your All Domain here, Example-->( https/http://xyz.com).
+4.) Paste Your All Domain here, Example-->( https/http://xyz.com).
 
 NOTE- All domain must be start with http/https.
 
-4.) Run the script -> { python3 Genrator.py }
+5.) Run the script -> { python3 Genrator.py }
 
 5.) save that response in file use--> { python3 Genrtor.py | tee -a file-name.txt }
 
+6.) you Can Set timeOut Connection --> timeouts = (conn_timeout, read_timeout)
 
 NOTE------>
 IF YOU GOT SUCH TYPE ERROR {
