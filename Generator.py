@@ -24,7 +24,7 @@ def scanner():
     for i in list:
         # resp = requests.post(i, headers=headers, timeout=10)
         resp = requests.get(i, timeout=(3.2, 30), verify=False)
-        print(i, resp.status_code, sep="------------>")
+        print(i, resp.status_code, sep=" ------------>")
         with open("file.txt", "r") as f:
             lines = f.readlines()
             lines.remove(i + "\n")
