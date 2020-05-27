@@ -1,12 +1,12 @@
 # HTTP_ReSponseCodeGenrator
 
-**Description**
+## Descriptio
 Simply Genrate HTTP Response code in Terminal.
 This will Help You to find Which Domain Is Corrently Working or not.
 You can set manually Timeout,(defult =3) .
 
 
-**Usage**
+## Usage
 
 -1- Download file --> { $ git clone https://github.com/hacker50120/HTTP_ReSponseCodeGenrator }
 
@@ -19,13 +19,13 @@ You can set manually Timeout,(defult =3) .
 -5- you Can Set timeOut Connection --> timeouts = (conn_timeout, read_timeout)
 
 
-**NOTE** 
+## NOTE 
 
 "All domain must be start with http/https"
 
 
 
-**OUTPUT STYLE**
+## OUTPUT STYLE
 
 URL------------>Status_code
 
@@ -37,4 +37,4 @@ http://twitter.com------------>200 .
 
 
 
-**Genrated By Abhishek Kanaujia..**
+## Genrated By Abhishek Kanaujia..
