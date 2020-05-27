@@ -9,4 +9,3 @@ sudo apt-get install ntpdate
 sudo ntpdate -u ntp.ubuntu.com
 pip install --upgrade certifi
 touch file.txt
-gedit file.txt
