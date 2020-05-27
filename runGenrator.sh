@@ -2,7 +2,7 @@
  
 nano file.txt 
 echo "Paste your Http/Https Urls Here and Save It. [Press Enter to Continue..!]"
-#for wating 300 seconds for Press any key 
+#will wait 300 seconds only
 read -t 300 -n 1
 while true
 do
