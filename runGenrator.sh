@@ -11,7 +11,7 @@ if [ -z "$blank"  ]
 then
 exit;
 else
-python3 runGenrator.sh
+python3 Generator.py
 fi
 done
 
