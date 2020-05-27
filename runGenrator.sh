@@ -1,6 +1,6 @@
 #!/bin/bash
  
-gedit file.txt 
+nano file.txt 
 echo "Paste your Http/Https Urls Here and Save It. [Press Enter to Continue..!]"
 #for wating 300 seconds for Press any key 
 read -t 300 -n 1
@@ -11,7 +11,7 @@ if [ -z "$blank"  ]
 then
 exit;
 else
-python3 genrator.py
+python3 runGenrator.sh
 fi
 done
 
