@@ -22,7 +22,7 @@ def reader():
 
 def scanner():
     for i in list:
-        # resp = requests.post(i, headers=headers, timeout=10)
+        #Response Genrator
         resp = requests.get(i, timeout=(3.2, 30), verify=False)
         print(i, resp.status_code, sep=" ------------>")
         with open("file.txt", "r") as f:
@@ -35,22 +35,19 @@ reader()
 
 while (var > 0):
     try:
-        print("URL", "Status_code", sep="------------>")
         while (1):
             try:
                 scanner()
 
             except:
                 reader()
-                print(list[0]+"<<<----error Occure, Due To Connection Time Out...!!---->")
                 with open("file.txt", "r") as f:
                     lines = f.readlines()
                     lines.remove(list[0] + "\n")
                     with open("file.txt", "w") as new_f:
                         for line in lines:
                                 new_f.write(line)
-                        scanner()
+                    scanner()
 
     except:
-        print("DONE!! \nPlease Enter the Url's In file.txt")
-        sys.exit(0)
+        sys.exit(1)
